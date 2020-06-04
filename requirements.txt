@@ -1,0 +1,5 @@
+pandas
+Flask
+linalg
+scipy
+numpy
