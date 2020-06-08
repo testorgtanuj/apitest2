@@ -1,5 +1,3 @@
-pandas
-Flask
-linalg
+flask
 scipy
-numpy
+
