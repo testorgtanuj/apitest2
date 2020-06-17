@@ -1,6 +1,7 @@
+
+  
 # -*- coding: utf-8 -*-
 """
-
 @author: GU20005915
 """
 # -*- coding: utf-8 -*-
@@ -29,7 +30,7 @@ def mahalanobis():
     #cov  : covariance matrix (p x p) of the distribution. If None, will be computed from data.
     
     
-    master = pd.read_csv("./input_file-V1.csv") ## Load CSV file 
+    master = pd.read_csv("E:/Physics based models/Mahalanobis Dist/input_file-V1.csv") ## Load CSV file 
     data = master[['head', 'efficiency','flow_ratio_bep','suction_pressure','case_pressure','flow']]
     df_x = master[['head', 'efficiency']].head(1000)
     x_minus_mu = df_x - np.mean(data)
